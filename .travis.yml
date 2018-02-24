@@ -6,4 +6,6 @@ before_install:
 npm:
   - install
   - start
-
+cache:
+  directories:
+    - "node_modules"
